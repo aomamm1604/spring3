@@ -1,4 +1,9 @@
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,18 +25,11 @@
 
 <div class="jumbotron text-center">
   <h1>SPRING TEST</h1> 
-  <p>Vat Calculator !!!</p> 
-  <form class="form-inline" action="/vat">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputAmount">Amount (in Baht)</label>
-    <div class="input-group">
-      <div class="input-group-addon">฿</div>
-      <input type="text" name="balance" class="form-control" size="50" placeholder="Amount" required>
-      <div class="input-group-addon">.00</div>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+  <p>Zipcode Finder !!!</p> 
+  <form class="form-inline" action="/process">
+    <input type="text" name="process" class="form-control" size="50" placeholder="Enter Number" required>
+    <button type="submit" class="btn btn-danger">Submit</button>
+  </form>
  
 </div>
 
